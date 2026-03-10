@@ -18,7 +18,7 @@ public class TestUserAdd extends TestCase {
 
 		UserModel.add(bean);
 
-		bean = UserModel.findByPk(7);
+		bean = UserModel.findByPk(8);
 
 		assertNotNull("record is not added", bean);
 	}

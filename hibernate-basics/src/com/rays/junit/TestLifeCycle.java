@@ -19,7 +19,7 @@ public class TestLifeCycle {
 	public void before() throws Exception {
 		System.out.println("before");
 	}
-
+                
 	@Test
 	public void testFindMax1() {
 		System.out.println("Test 01");
